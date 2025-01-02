@@ -1,0 +1,42 @@
+{
+  "name": "belajar-typescript-validation",
+  "version": "1.0.0",
+  "description": "belajar ts validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilangmgm98/belajar-typescript-validation.git"
+  },
+  "keywords": [
+    "typescript",
+    "validation",
+    "typescript-validation"
+  ],
+  "author": "Muhammad Gilang Murdiyanto",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/gilangmgm98/belajar-typescript-validation/issues"
+  },
+  "homepage": "https://github.com/gilangmgm98/belajar-typescript-validation#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}
